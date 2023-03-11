@@ -1,0 +1,3 @@
+# Buddhabrot
+
+A simple Buddhabrot renderer. This renderer allows you to set the maximum iterations for each color channel in the output image separately, and also allows you to specify the region of the complex plane being rendered. Note that the output is rendered sideways, corresponding to the way the Buddhabrot is typically rendered. It isn't implemented as a library because its functionality is too limited to warrant that, it's best to just modify the variables at the top of the program. For a test render, I'd recommend keeping the variables as they are and simply reducing the number of passes by an order of magnitude or two.
